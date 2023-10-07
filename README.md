@@ -4,20 +4,48 @@
 
 >  Construindo uma API REST com banco de dados usando Java e Spring Boot para o projeto final do módulo.
 
-### Pré-requisitos
+### Tecnologias
 
-- Lógica de programação (qualquer linguagem)
-- Programação orientada a objetos (qualquer linguagem)
+- Lógica de programação (Java)
+- Programação orientada a objetos (Java)
+- Banco de Dados (Postegree)
 - Ferramentas
   - Spring Tool Suite (STS)
-  - Postman
+  - Insomnia
 
-### Objetivos da aula
+## Regras
 
-- Resgatar fundamentos de programação
-- Colocar em prática esses fundamentos
-- Criar um pequeno sistema com ferramentas e práticas de mercado
-- Dar mais um passo em direção à preparação para o mercado
+O aluno deverá construir uma aplicação Java, usando os conceitos apresentados em sala usando as tecnologias do ecossistema Spring.
+
+Pontos que serão OBRIGATÓRIOS para a entrega do trabalho.
+
+- Diagrama de classes da solução;
+- Arquivo Insomnia com exemplos de todas as chamadas de API’s da aplicação;
+- Documentação das API’s no Swagger
+- Software rodando corretamente;
+- Lista de Requisitos funcionais/Requisitos não funcionais/Regras de negócio;
+- Cobertura de código de no mínimo 50%;
+- Persistencia de dados em Postgres;
+- Uso do Flyway para gerenciamento das Migrations;
+- Uso do Maven para gerenciamento das dependencias e estrutura do projeto
+- PLUS: Deploy no RailWay, conforme tutorial: [***\*Como configurar o springboot e postgresSQL no Railway\****](https://www.notion.so/Como-configurar-o-springboot-e-postgresSQL-no-Railway-301bdf4514fe49eb88fb082298aa8a2a?pvs=21)
+
+Não estão elencados acima porém também são pré requisitos:
+
+- Qualidade de código
+- Normalização de banco de dados
+
+
+
+# Tema
+
+------
+
+O tema do trabalho será definido pelo aluno, porém assim como a liberdade criativa na definição dos temas o aluno é responsável é responsável por aquilo que planejou (te tornas eternamento responsável por aquilo que cativas).
+
+Neste caso, estamos falando de um início de projeto de Departamento pessoal, com as entidades Usuário, Colaborador, Departamento.
+
+
 
 ### Visão geral do sistema
 
@@ -33,25 +61,13 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
 
 ![Image](https://raw.githubusercontent.com/devsuperior/java-web-spring-2022/main/img/objetos.png "Objetos")
 
-### Passos da aula
+### Passos do Projeto
 
 - Criar o projeto
 - Implementar o modelo de domínio
 - Mapeamento objeto-relacional com JPA
 - Configurar o banco de dados H2
 - Criar os endpoints da API REST
-
-### Trechos de código para copiar
-
-#### Configuração do Maven Resources Plugin
-
-```xml
-<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-resources-plugin</artifactId>
-	<version>3.1.0</version>
-</plugin>
-```
 
 #### Configurações do banco de dados
 
@@ -81,6 +97,6 @@ INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Bob', 'bob@gmail.com
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Alex', 'alex@gmail.com');
 INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com');
 ```
-#### Collection Postman
+#### Collection Insomnia
 
-https://www.getpostman.com/collections/ac4a49113c4024e47d4f
+https://github.com/edsonsreis/DepPersonal-Project/blob/main/userdept/Insomnia_2023-10-07.json
