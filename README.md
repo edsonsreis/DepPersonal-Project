@@ -1,11 +1,8 @@
-# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Seu primeiro projeto Java Web no Spring Boot 2022
->  Veja como é simples construir uma API REST com banco de dados usando Java e Spring Boot 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="120" height="205"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain-wordmark.svg" width="120" height="205"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="120" height="205" />
 
-## Realização
-[DevSuperior - Escola de programação](https://devsuperior.com.br)
+# Projeto ER Departamento Pessoal
 
-[![DevSuperior no Instagram](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/ig-icon.png)](https://instagram.com/devsuperior.ig)
-[![DevSuperior no Youtube](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/yt-icon.png)](https://youtube.com/devsuperior)
+>  Construindo uma API REST com banco de dados usando Java e Spring Boot para o projeto final do módulo.
 
 ### Pré-requisitos
 
