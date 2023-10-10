@@ -25,9 +25,9 @@ Pontos que serão OBRIGATÓRIOS para a entrega do trabalho.
 - Software rodando corretamente;
 - Lista de Requisitos funcionais/Requisitos não funcionais/Regras de negócio;
 - Cobertura de código de no mínimo 50%;
-- Persistencia de dados em Postgres;
+- Persistência de dados em Postgres;
 - Uso do Flyway para gerenciamento das Migrations;
-- Uso do Maven para gerenciamento das dependencias e estrutura do projeto
+- Uso do Maven para gerenciamento das dependências e estrutura do projeto
 - PLUS: Deploy no RailWay, conforme tutorial: [***\*Como configurar o springboot e postgresSQL no Railway\****](https://www.notion.so/Como-configurar-o-springboot-e-postgresSQL-no-Railway-301bdf4514fe49eb88fb082298aa8a2a?pvs=21)
 
 Não estão elencados acima porém também são pré requisitos:
@@ -64,10 +64,17 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
 ### Passos do Projeto
 
 - Criar o projeto
+- Diagrama de classes da solução
 - Implementar o modelo de domínio
+- Uso do Maven para gerenciamento das dependências 
 - Mapeamento objeto-relacional com JPA
 - Configurar o banco de dados H2
 - Criar os endpoints da API REST
+- Testes Unitários com no mínimo 50% [Não realizado]
+- Documentação das APIs no Swagger [Não realizado]
+- Persistência de dados em Postgres [Não realizado] 
+- Uso do Flyway para gerenciamento das Migrations [Não realizado]
+- PLUS: Deploy no RailWay, conforme tutorial. [Não realizado]
 
 #### Configurações do banco de dados
 
