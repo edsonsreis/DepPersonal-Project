@@ -41,9 +41,9 @@ Não estão elencados acima porém também são pré requisitos:
 
 ------
 
-O tema do trabalho será definido pelo aluno, porém assim como a liberdade criativa na definição dos temas o aluno é responsável é responsável por aquilo que planejou (te tornas eternamento responsável por aquilo que cativas).
+O tema do trabalho será definido pelo aluno, porém assim como a liberdade criativa na definição dos temas o aluno é responsável é responsável por aquilo que planejou (te tornas eternamente responsável por aquilo que cativas).
 
-Neste caso, estamos falando de um início de projeto de Departamento pessoal, com as entidades Usuário, Colaborador, Departamento.
+Neste caso, estamos falando de um início de projeto de Departamento pessoal, com as entidades Usuário e Departamento.
 
 
 
