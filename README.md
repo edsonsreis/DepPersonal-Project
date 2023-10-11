@@ -78,8 +78,8 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
   - Usuário e Departamento: UPDATE (ATUALIZAR)
 
 - Testes Unitários com no mínimo 50% [Não realizado]
-- Documentação das APIs no Swagger [Não realizado]
-- Persistência de dados em Postgres [Não realizado] 
+- Documentação das APIs no Swagger
+- Persistência de dados em Postgres [Por enquanto feito em h2]
 - Uso do Flyway para gerenciamento das Migrations [Não realizado]
 - PLUS: Deploy no RailWay, conforme tutorial. [Não realizado]
 
@@ -114,3 +114,8 @@ INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ana', 'ana@gmail.com
 #### Collection Insomnia
 
 https://github.com/edsonsreis/DepPersonal-Project/blob/main/userdept/Insomnia_2023-10-07.json
+
+### **Swagger**
+
+http://localhost:8080/swagger-ui/index.html
+

@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devedson.userdept.entities.User;
 import com.devedson.userdept.repositories.UserRepository;
 
+
 @RestController
 @RequestMapping(value = "/users")
 public class UserController {
