@@ -74,8 +74,8 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
   - Usuário e Departamento: GET BY ID (BUSCAR por ID)
   - Usuário e Departamento: GET (BUSCAR)
   - Usuário e Departamento: POST (INSERIR)
-  - Usuário e Departamento: DELETE (DELETAR) [Não realizado]
-  - Usuário e Departamento: UPDATE (ATUALIZAR) [Não realizado]
+  - Usuário e Departamento: DELETE (DELETAR)
+  - Usuário e Departamento: UPDATE (ATUALIZAR)
 
 - Testes Unitários com no mínimo 50% [Não realizado]
 - Documentação das APIs no Swagger [Não realizado]
