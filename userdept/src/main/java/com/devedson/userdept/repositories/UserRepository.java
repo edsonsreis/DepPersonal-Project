@@ -6,6 +6,4 @@ import com.devedson.userdept.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	
-
 }

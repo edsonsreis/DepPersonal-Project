@@ -69,7 +69,14 @@ Vamos construir um pequeno sistema (API REST) de usuários e departamentos, com 
 - Uso do Maven para gerenciamento das dependências 
 - Mapeamento objeto-relacional com JPA
 - Configurar o banco de dados H2
-- Criar os endpoints da API REST
+- Criar os endpoints da API REST Usuário e Departamento
+  - Usuário e Departamento: GET (BUSCAR)
+  - Usuário e Departamento: GET BY ID (BUSCAR por ID)
+  - Usuário e Departamento: GET (BUSCAR)
+  - Usuário e Departamento: POST (INSERIR)
+  - Usuário e Departamento: DELETE (DELETAR) [Não realizado]
+  - Usuário e Departamento: UPDATE (ATUALIZAR) [Não realizado]
+
 - Testes Unitários com no mínimo 50% [Não realizado]
 - Documentação das APIs no Swagger [Não realizado]
 - Persistência de dados em Postgres [Não realizado] 
